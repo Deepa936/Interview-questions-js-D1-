@@ -1,0 +1,61 @@
+(Q1)Difference between “ == “ and “ === “ operators.
+ans double equal is a boolean opertors.It's compare the value of the variable with we assign.
+     tripal equal is a boolean opertors.It's compare the value and its data types of the variable.
+
+(Q2)What are the differences between var, let and const?
+ans resign and reclared the value of x in var keyword.
+    //var x=20;
+    resign and reclared the value of y in let keyword but we can't recleared the variable.
+    //let y=30;
+    we can't resgin the value of z in const variable.
+    //const z=40;
+
+(Q3)What is execution context?
+ans It contains information about the variables, functions, and objects that are available to the code being executed, as well as the scope chain and the value of the 'this' keyword.
+What is creation phase and execution phase.
+
+(Q4)What is hoisting?
+ans It is a default behaviour of java script where all the variable and function declerations are moved on top.
+Difference between undefined vs not defined vs NaN.
+
+(Q5)How many operators do we have in JS ?
+ans  JavaScript, we have various types of operators. 
+(a)Arithmetic Operators
+    +	Add	                                7+3=10
+    –	Subtract	                        7-3=10
+    *	Multiply	                        7*3=21
+    /	Divide	                            7/3=2.34
+    %	Modulus (Division Remainder)	    7%3=1
+    ++	Increment (Increase answer by 1)	var a=7; a ++; now a= 9
+    –-	Decrement (Decrease answer by 1)	var a=7; a – -; now a=5
+(b)Assignment Operators
+    =	Assign
+    +=	Add and Assign
+    -=	Subtract and Assign
+    *=	Multiple and Assign
+    /=	Divide and Assign
+    %=	Modulus and Assign
+(c)Comparison (Relational) Operators
+    ==	Equal to
+    !=	Not equal
+    >	Greater than
+    <	Less than
+    >=	Greater than or equal to
+    <=	Less than or equal to
+(d)Logical Operators
+    &&	logical AND
+    ||	logical OR
+    !	logical Not
+(e)Bitwise Operators
+    &	Bitwise AND
+    |	Bitwise OR
+    ^	Bitwise XOR
+    ~	Bitwise NOT
+    <<	Bitwise Left Shift
+    >>	Bitwise Right Shift
+
+(Q6)Explain Local Scope, Block Scope, Functional Scope and Scope Chain in javascript.
+ans Local scope=local scope are available only within a specific local context and are created by keywords, such as var , let , and const .
+    block scope= This scope restricts the variable that is declared inside a specific block, from access by the outside of the block. 
+    Functional scope=Variables that are declared inside a function are called local variables and in the function scope. 
+    scope chain=A stack of currently accessible scopes, from the most immediate context to the global context. 
